@@ -1,0 +1,15 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('flowbite/plugin')({
+      charts: true,
+    }),
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
+}
+
