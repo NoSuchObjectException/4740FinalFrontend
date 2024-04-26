@@ -3,7 +3,7 @@
     import { InfoCircleSolid, ChevronDownOutline, ChevronRightOutline, PenSolid, DownloadSolid, ShareNodesSolid, TrashBinSolid, DotsHorizontalOutline } from 'flowbite-svelte-icons';
   
     const options = {
-      series: [50.8, 26.8, 20.4],
+      series: [56.9, 42.3, 0.808],
       colors: ['#1C64F2', '#16BDCA', '#9061F9'],
       chart: {
         height: 420,
@@ -59,11 +59,11 @@
     };
   </script>
   
-  <Card>
+  <!-- <Card> -->
     <div class="flex justify-between items-start w-full">
       <div class="flex-col items-center">
         <div class="flex items-center mb-1">
-          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">Website traffic</h5>
+          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1" style="color: white;">Website traffic</h5>
           <InfoCircleSolid id="pie1" class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer ms-1" />
           <Popover triggeredBy="#pie1" class="text-sm text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 z-10">
             <div class="p-3 space-y-2">
@@ -99,4 +99,4 @@
         </A>
       </div>
     </div>
-  </Card>
+  <!-- </Card> -->
