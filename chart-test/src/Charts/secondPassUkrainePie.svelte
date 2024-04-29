@@ -1,8 +1,10 @@
 <script>
-    import { Chart } from 'flowbite-svelte';
+    import { Chart, Card, A, Button, Dropdown, DropdownItem, Popover } from 'flowbite-svelte';
+    import { InfoCircleSolid, ChevronDownOutline, ChevronRightOutline, PenSolid, DownloadSolid, ShareNodesSolid, TrashBinSolid, DotsHorizontalOutline } from 'flowbite-svelte-icons';
+  
     const options = {
-      series: [56.9, 42.3, 0.808],
-      colors: ['#1C64F2', '#16BDCA', '#9061F9'],
+      series: [3.6, 12.9, 5.8 , 62.2, 15.8],
+    //   colors: ['orange', 'yellow', 'brown','red', 'gray'],
       chart: {
         height: 620,
         width: '100%',
@@ -23,7 +25,7 @@
           }
         }
       },
-      labels: ['Positive', 'Negative', 'Neutral'],
+      labels: ['Happy', 'Hopeful', 'Sad', 'Angry', 'Neutral'],
       dataLabels: {
         enabled: true,
         style: {
@@ -58,11 +60,10 @@
     };
   </script>
   
-  <!-- <Card> -->
     <div class="flex justify-between items-start w-full">
       <div class="flex-col items-center">
         <div class="flex items-center mb-1">
-          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1" style="color: white;">First Sentiment Pass</h5>
+          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1" style="color: white;">Ukraine </h5>
         </div>
       </div>
       <div class="flex justify-end items-center">
@@ -70,11 +71,11 @@
       </div>
     </div>
   
+
     <Chart {options} class="py-6" />
+
   
     <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
       <div class="flex justify-between items-center pt-5">
-        
       </div>
     </div>
-  <!-- </Card> -->
