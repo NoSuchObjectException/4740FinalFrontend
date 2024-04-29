@@ -1,4 +1,4 @@
-import "src/app.pcss";
+// import "src/app.pcss";
 import App from "././app.svelte";
 import App2 from "././app2.svelte";
 import App3 from "././secondPassUkrainePie.svelte"
