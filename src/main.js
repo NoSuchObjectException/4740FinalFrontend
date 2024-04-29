@@ -1,4 +1,4 @@
-// import "src/app.pcss";
+import "././app.pcss";
 import App from "././app.svelte";
 import App2 from "././app2.svelte";
 import App3 from "././secondPassUkrainePie.svelte"
@@ -10,17 +10,17 @@ const app = new App({
   target: document.getElementById("app"),
 });
 
-const app2 = new App2({
-  target: document.getElementById("app"),
-});
+// const app2 = new App2({
+//   target: document.getElementById("app"),
+// });
 
-const app3 = new App3({
-  target: document.getElementById("app"),
-});
+// const app3 = new App3({
+//   target: document.getElementById("app"),
+// });
 
-const app4 = new App4({
-  target: document.getElementById("app"),
-});
+// const app4 = new App4({
+//   target: document.getElementById("app"),
+// });
 
 
 // const firebaseConfig = {
