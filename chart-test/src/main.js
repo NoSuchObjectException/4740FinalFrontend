@@ -1,8 +1,8 @@
 import "./app.pcss";
-import App from "./Charts/app.svelte";
-import App2 from "./Charts/app2.svelte";
-import App3 from "./Charts/secondPassUkrainePie.svelte"
-import App4 from "./Charts/secondPassRussiaPie.svelte"
+import App from "././Charts/app.svelte";
+import App2 from "././Charts/app2.svelte";
+import App3 from "././Charts/secondPassUkrainePie.svelte"
+import App4 from "././Charts/secondPassRussiaPie.svelte"
 
 const app = new App({
   target: document.getElementById("app"),
