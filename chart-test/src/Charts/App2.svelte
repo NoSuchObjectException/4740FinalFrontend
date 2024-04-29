@@ -87,11 +87,8 @@
       <div class="flex justify-between items-center pt-5">
         <Button class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white bg-transparent hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent focus:ring-transparent dark:focus:ring-transparent py-0">Last 7 days<ChevronDownOutline class="w-2.5 m-2.5 ms-1.5" /></Button>
         <Dropdown class="w-40" offset="-6">
-          <DropdownItem>Yesterday</DropdownItem>
-          <DropdownItem>Today</DropdownItem>
-          <DropdownItem>Last 7 days</DropdownItem>
-          <DropdownItem>Last 30 days</DropdownItem>
-          <DropdownItem>Last 90 days</DropdownItem>
+          <DropdownItem>Ukraine</DropdownItem>
+          <DropdownItem>Russia</DropdownItem>
         </Dropdown>
         <A href="/" class="uppercase text-sm font-semibold hover:text-primary-700 dark:hover:text-primary-500 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2 hover:no-underline">
 
